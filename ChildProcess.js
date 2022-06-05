@@ -4,3 +4,6 @@ cp.execSync("calc");
 console.log("Opened calculator");
 
 cp.execSync("start chrome https://nodejs.org/en/");
+
+let output = cp.execSync("node abc.js");
+console.log(output.toString());
